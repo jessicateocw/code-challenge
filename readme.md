@@ -33,6 +33,8 @@ Trying if have time
 
 # Switcheo Code Challenge #6
 
+Description of system design for "Transaction Broadcaster Service"
+
 # Switcheo Code Challenge #7
 
 SQL example in one Query

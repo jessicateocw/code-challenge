@@ -1,0 +1,29 @@
+Design of the transaction broadcaster service
+
+4 things will be required API server, broadcaster service, database and the admin interface. 
+
+API server shall be a simple HTTP server to implement the API server. 
+The server receives requests from internal services and validates them before forwarding them to the broadcaster service. 
+We can use a JSON schema to validate the request body and return a 400 error if the request is invalid.
+
+Broadcaster service required to sign and broadcast the transactions. 
+Broadcaster Service could be implemented as a backend service that exposes 
+an API endpoint for broadcasting signed transactions to the blockchain network.
+
+A function is required to make a RPC request to the blockchain node to broadcast a signed transaction. 
+A function to API endpoint that receives a signed transaction from the client, signs it, and broadcasts it to the blockchain network. 
+If the transaction is successfully broadcasted, it returns a success response `200` (95% of the time).
+
+Otherwise, it returns a failure response with an error message ( 1% of the time).
+
+handling of edge cases where it automatically retries for failed transaction (will be for a certain amount of time or duration).
+When a transaction fails add a job to the queue to retry the transaction using either callbacks or debouce.
+The job would keep retrying until the transaction is successfully broadcasted or until a maximum number of retries depending on choice.
+
+A database will be required to store the transaction details or just the failed transaction details. 
+The data field may vary, I expect the following field would be required. 
+Transaction id, type, status, error information, creation timestamp, last updated timestamp. 
+
+Admin will require a simple web interface for easy view of the listed transactions in the database. 
+The interface requires admin logging, dashboard or table of the list of transactions. 
+Functions required for manual retry of the failed transactions.

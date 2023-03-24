@@ -23,12 +23,16 @@ Used React for the transaction form , steps to load page
 
 # Switcheo Code Challenge #3
 
-    Trying if have time
+Trying if have time
 
 # Switcheo Code Challenge #4
+
+    npm install
 
 # Switcheo Code Challenge #5
 
 # Switcheo Code Challenge #6
 
 # Switcheo Code Challenge #7
+
+SQL example in one Query

@@ -1,10 +1,34 @@
-# Switcheo Code Challenge #1 #
+# Switcheo Full Stack Role
 
-Note that if you fork this repository, your responses may be publicly linked to this repo.  
-Please submit your application along with the solutions attached or linked.   
+1. git clone this repository
 
-It is important that you minimally attempt the problems, even if you do not arrive at a working solution.
+Forked this repository.
 
-## Submission ##
-You can either provide a link to an online repository, attach the solution in your application, or whichever method you prefer.
-We're cool as long as we can view your solution without any pain.
+Attempting:
+
+Problem 1, 2, Frontend :(3), 4, 5, 6, 7
+
+# Switcheo Code Challenge #1
+
+    cd src
+    cd problem1
+    node index.js
+
+# Switcheo Code Challenge #2
+
+Used React for the transaction form , steps to load page
+
+    yarn install
+    npm start
+
+# Switcheo Code Challenge #3
+
+    Trying if have time
+
+# Switcheo Code Challenge #4
+
+# Switcheo Code Challenge #5
+
+# Switcheo Code Challenge #6
+
+# Switcheo Code Challenge #7

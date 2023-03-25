@@ -21,15 +21,16 @@ Used React for the transaction form , steps to load page
     yarn install
     npm start
 
-# Switcheo Code Challenge #3
-
-Trying if have time
-
 # Switcheo Code Challenge #4
 
     npm install
 
 # Switcheo Code Challenge #5
+
+Done with truffle but could not connect to node. Read truffle and solidity
+
+    truffle compile
+    truffle migrate
 
 # Switcheo Code Challenge #6
 

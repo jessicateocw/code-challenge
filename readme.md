@@ -6,7 +6,7 @@ Forked this repository.
 
 Attempting:
 
-Problem 1, 2, Frontend :(3), 4, 5, 6, 7
+Problem 1, 2, 4, 5, 6, 7
 
 # Switcheo Code Challenge #1
 
